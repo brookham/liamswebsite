@@ -4,12 +4,34 @@
     --c-dark: #212529;
     --c-light: #f8f9fa;
     --c-primary: #007bff;
-    --c-background: #fae3ac;
+    --c-background: #fcf2c2;
     --c-body: #727272;
+    --c-contp: #7d1c30;
+    --c-conts: #312a2b;
     --font-base:"Gambarino", sans-serif;
     
 }
+#contboarder {
+    border: 1px solid var(--c-dark);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+}
 
+#scontboarder {
+    border: 1px solid var(--c-dark);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: var(--c-conts);
+}
+#pcontboarder {
+    border: 1px solid var(--c-dark);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: var(--c-contp);
+}
 body {
     font-family: var(--font-base);
     background-color: var(--c-background);
