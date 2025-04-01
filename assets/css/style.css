@@ -11,11 +11,23 @@
     --font-base:"Gambarino", sans-serif;
     
 }
+#main-text {
+    color: var(--c-conts);
+    position: relative;
+    right:400px;
+    top: 200px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 20px auto;
+    max-width: 200px;
+    padding: 20px;
+}
 #contboarder {
     border: 1px solid var(--c-dark);
     padding: 20px;
     margin: 20px auto;
-    max-width: 700px;
+    max-width: 1320px;
+    min-height: 1000px;
 }
 
 #scontboarder {
@@ -48,6 +60,6 @@ h1,h2,h3,h4,h5,h6,
 
 a {
     text-decoration: none;
-    color: var(--c-base);
+    color: var(--c-dark);
     transition: var(--c-light);
 }
